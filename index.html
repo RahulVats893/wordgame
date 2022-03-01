@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        Hello World Game
+    </div>
+    <div class="main">
+        <div class="main-item1">
+            <div class="mid1">Correct</div>
+            <hr>
+            <div id="parentword">
+                <span id="correctword"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+
+        <div class="main-item2">
+            <div class="mid2">Drop Word</div>
+            <hr>
+            <div id="wordarr">
+
+            </div>
+        </div>
+        <div class="main-item3">
+            <div class="mid3">Incorrect</div>
+            <hr>
+            <div id="wrongwordparent">
+                <span id="wrongword"></span>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="div-footer">
+
+            <input type="text" placeholder="Word.." id="enterword" onchange="checkword()">
+            <!-- <button type="submit"><i class="fa fa-search"></i></button> -->
+
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</html>

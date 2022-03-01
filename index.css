@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.header {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    height: 10%;
+    font-weight: bold;
+    padding-top: 15px;
+    background-color: aquamarine;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    font-family: 'Pacifico', cursive;
+    height: 80%;
+}
+
+.main-item1 {
+    outline: lightcoral solid 5px;
+    grid-gap: 10px;
+    text-align: center;
+    background-color: lightgreen;
+}
+
+.main-item1 .mid1 {
+    outline: darkred solid 2px;
+    margin: 5px;
+    height: 10%;
+}
+
+.main-item1 .mid1:hover {
+    background-color: royalblue;
+    font-size: large;
+}
+
+.main-item1 .parentword {
+    height: 85%;
+    background-color: springgreen;
+}
+
+.main-item2 {
+    outline: seagreen solid 5px;
+    grid-gap: 10px;
+    text-align: center;
+    background-color: lightcyan;
+}
+
+.main-item2 .mid2 {
+    outline: slateblue solid 2px;
+    margin: 5px;
+    height: 10%;
+    position: relative;
+}
+
+.main-item2 .mid2:hover {
+    background-color: darkmagenta;
+    font-size: large;
+}
+
+#wordarr {
+    position: absolute;
+    height: 30px;
+    width: 50px;
+    margin-left: 150px;
+    background: red;
+}
+
+.main-item3 {
+    outline: greenyellow solid 5px;
+    grid-gap: 10px;
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+.main-item3 .mid3 {
+    outline: aqua solid 2px;
+    margin: 5px;
+    height: 10%;
+}
+
+.main-item3 .wrongwordparent {
+    height: 88%;
+}
+
+.main-item3 .mid3:hover {
+    background-color: darkmagenta;
+    font-size: large;
+    /* font-family: cursive, ; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer {
+    height: 10%;
+    background-color: rosybrown;
+    outline: darkblue solid 5px;
+    margin: 5px;
+    display: flex;
+}
+
+.footer,
+div-footer {
+    justify-content: center;
+    align-items: center;
+}
+
+.footer,
+div-footer input,
+button {
+    font-weight: bold;
+    font-size: large;
+}
